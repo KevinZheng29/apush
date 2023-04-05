@@ -1,0 +1,31 @@
+.template{
+  width: 90%;
+  height: 1300px;
+  background-image: url(https://i.pinimg.com/736x/03/c3/ab/03c3ab693eedcd84c1119a947974cb93--games-games-games-board-games.jpg);
+  background-size: contain;
+}
+.parent{
+  display: grid;
+  grid-template-rows: 130px 130px 130px 130px 130px 130px 130px 130px 130px 130px;
+  grid-template-columns: 130px 130px 130px 130px 130px 130px 130px 130px 130px 130px;
+  gap: 0px;
+}
+.box{
+  width: 130px;
+  height: 130px;
+  border: 1px solid black;
+}
+
+.sprite{
+  width: 70%;
+  height: 70%;
+  margin-top: 25%;
+  margin-left: 15%;
+}
+
+.gameplaymessage{
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  border: 3px solid black;
+}
