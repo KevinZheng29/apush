@@ -22,13 +22,15 @@ box.forEach((box) => {
     clear();
     box.innerHTML = `<div><img class="sprite" src ="${sprite}"></div>`;
     position = box.id;
-    console.log(position);
     alertladder();
   });
 });
 
 function alertladder() {
+  console.log(position);
   if (position === "box2") {
+    console.log("u reached a ladder");
+  } else if (position === "box7") {
     console.log("u reached a ladder");
   }
 }
