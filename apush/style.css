@@ -2,7 +2,7 @@
   width: 90%;
   height: 1300px;
   background-image: url(https://i.pinimg.com/736x/03/c3/ab/03c3ab693eedcd84c1119a947974cb93--games-games-games-board-games.jpg);
-  background-size: contain;
+  background-size: cover;
 }
 .parent{
   display: grid;
