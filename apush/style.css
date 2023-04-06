@@ -6,13 +6,14 @@
 }
 .parent{
   display: grid;
-  grid-template-rows: 130px 130px 130px 130px 130px 130px 130px 130px 130px 130px;
-  grid-template-columns: 130px 130px 130px 130px 130px 130px 130px 130px 130px 130px;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   gap: 0px;
 }
 .box{
-  width: 130px;
-  height: 130px;
+  width: 17.2vh;
+
+  height: 17.2vh;
   border: 1px solid black;
 }
 
